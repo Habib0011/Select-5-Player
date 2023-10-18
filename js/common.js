@@ -36,3 +36,6 @@ function calculation(){
     const setID = document.getElementById('total-Cm')
     setID.innerText = total;
 }
+function disable (a){
+    a.disabled = true
+}

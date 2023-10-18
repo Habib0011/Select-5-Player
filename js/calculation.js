@@ -6,7 +6,7 @@ document.getElementById('btn-id').addEventListener('click',function(){
  olContainer.appendChild(li)
  const ids = document.querySelectorAll('.item')
     const idsLength = ids.length
-    if(idsLength === 5){
+    if(idsLength >= 5){
         alert('sorry U can only pick 5 players')
     }
 
@@ -19,7 +19,7 @@ document.getElementById('btn-id2').addEventListener('click',function(){
  olContainer.appendChild(li)
  const ids = document.querySelectorAll('.item')
     const idsLength = ids.length
-    if(idsLength === 5){
+    if(idsLength>= 5){
         alert('sorry U can only pick 5 players')
     }
 
@@ -32,7 +32,7 @@ document.getElementById('btn-id3').addEventListener('click',function(){
  olContainer.appendChild(li)
  const ids = document.querySelectorAll('.item')
     const idsLength = ids.length
-    if(idsLength === 5){
+    if(idsLength >= 5){
         alert('sorry U can only pick 5 players')
     }
 
@@ -45,7 +45,7 @@ document.getElementById('btn-id4').addEventListener('click',function(){
  olContainer.appendChild(li)
  const ids = document.querySelectorAll('.item')
     const idsLength = ids.length
-    if(idsLength === 5){
+    if(idsLength >= 5){
         alert('sorry U can only pick 5 players')
     }
 
@@ -58,7 +58,7 @@ document.getElementById('btn-id5').addEventListener('click',function(){
  olContainer.appendChild(li)
  const ids = document.querySelectorAll('.item')
     const idsLength = ids.length
-    if(idsLength === 5){
+    if(idsLength>= 5){
         alert('sorry U can only pick 5 players')
     }
 
@@ -71,7 +71,7 @@ document.getElementById('btn-id6').addEventListener('click',function(){
    olContainer.appendChild(li)
    const ids = document.querySelectorAll('.item')
     const idsLength = ids.length
-    if(idsLength === 5){
+    if(idsLength>= 5){
         alert('sorry U can only pick 5 players')
     }
 
